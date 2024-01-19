@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website WEBPROG</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+
+    .home {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      padding: 0 10%;
+    }
+
+    .home-content {
+      max-width: 600px;
+    }
+
+    .home-content h1 {
+      font-size: 56px;
+      font-weight: 700;
+    }
+
+    .home-content h3 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #00abf0;
+    }
+
+    .home-content p {
+      font-size: 16px;
+      margin: 20px 0 40px;
+    }
+
+    h1 {
+      background-color: lightblue;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: white;
+      background-color: #3498db;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #2980b9;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .profile-container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border: 2px solid #3498db;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    header {
+      background-color: #3498db;
+      color: #fff;
+      padding: 5px;
+      border-radius: 6px;
+      width: 98%;
+      text-align: center;
+    }
+
+    .centered {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 200px;
+      height: 250px;
+      border-radius: 50%;
+    }
+
+    .info-section,
+    .education-section,
+    .skills-section,
+    .hobbies-section,
+    .contact-section {
+      text-align: left;
+      border-top: 2px solid #3498db;
+      padding-top: 20px;
+      margin-top: 20px;
+    }
+
+    .info-section h2,
+    .education-section h2,
+    .skills-section h2,
+    .hobbies-section h2,
+    .contact-section h2 {
+      color: #3498db;
+    }
+
+    p {
+      margin: 8px 0;
+      color: #555;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-border {
+      border: 2px solid #3498db;
+      border-radius: 10px;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Welcome to my Website!</h1>
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#profile">Profile</a></li>
+    </ul>
+  </nav>
+
+  <section id="introduction">
+    <div class="container">
+      <div class="home" id="introduction-section">
+        <div class="home-content">
+          <div class="centered">
+            <div>
+              <h1>Hi, I'm Neil Andrei Enrera</h1>
+              <h3>IT Student</h3>
+              <p>"Greetings! I'm Neil Andrei Enrera, an IT student with a profound interest in technology and programming. Explore and enjoy the content as I share my journey into the coding world. Join me as I embark on the exciting path of learning programming, crafting solutions, and unlocking the secrets of code. Together, let's turn our ideas into reality through the power of coding! Thanks for being a part of this adventure."</p>
+      </div>
+    </div>
+  </section>
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <p>Reading Manga/Manhwa</p>
+    <p>Watching Animes/Movies/Kdramas</p>
+    <p>Playing Video Games</p>
+    <p>Gym</p>
+
+    <div class="centered">
+      <div class="image-container">
+        <p><strong>Favorite Manhwa:</strong></p>
+        <p><strong>The Boxer</strong></p>
+        <img src="the boxer.jpg" alt="The Boxer">
+      </div>
+
+      <div class="image-container">
+        <p><strong>Favorite Anime:</strong></p>
+        <p><strong>Haiky</strong></p>
+        <img src="Haikyu.jpg" alt="Haikyu">
+      </div>
+
+      <div class="image-container">
+        <p><strong>Favorite Movie:</strong></p>
+        <p><strong>A Man Called OTTO</strong></p>
+        <img src="A Man Called OTTO.jpg" alt="A Man Called OTTO">
+      </div>
+    </div>
+
+    <div class="centered">
+      <div class="image-container">
+        <p><strong>Favorite Kdrama:</strong></p>
+        <p><strong>Start Up</strong></p>
+        <img src="start up.jpg" alt="Start Up">
+      </div>
+
+      <div class="image-container">
+        <p><strong>Favorite PC Game:</strong></p>
+        <p><strong>League of Legends</strong></p>
+        <img src="league.jpg" alt="League of Legends">
+      </div>
+
+     <div class="image-container">
+       <p><strong>Favorite Mobile Game:</strong></p>
+       <p><strong>Mobile Legends</strong></p>
+       <img src="ml.png" alt="Mobile Legends">
+    </div>
+</div>
+</section>
+  <section id="profile">
+    <div class="profile-container">
+      <header>
+        <h1>Profile</h1>
+      </header>
+  <div class="centered">
+    <img src="neil.jpg" alt="Neil Andrei Enrera">
+  </div>
+
+  <section class="info-section">
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> Enrera, Neil Andrei </p>
+    <p><strong>Birthday:</strong> September 24</p>
+    <p><strong>Course:</strong> IT 2nd Year - 2023</p>
+    <p><strong>School:</strong> National University (NU)</p>
+    <p><strong>Address:</strong> San Jose del Monte, Bulacan</p>
+  </section>
+
+  <section class="education-section">
+    <h2>Education</h2>
+    <p><strong>Current:</strong> Bachelor of Science in Information Technology (BSIT), National University</p>
+  </section>
+
+  <section class="skills-section">
+    <h2>Skills</h2>
+    <p><strong>Programming:</strong> Java, Python</p>
+    <p><strong>Web Development:</strong> HTML, CSS, JavaScript</p>
+    <p><strong>Other Skills:</strong> Problem-solving, Teamwork, Communication</p>
+  </section>
+
+  <section class="contact-section">
+    <h2>Contact</h2>
+    <p><strong>LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/neil-andrei-enrera-2845b5252/" target="_blank">Neil Andrei Enrera</a></p>
+    <p><strong>Githud:</strong>
+      <a href="https://github.com/NeilEnrera?tab=overview&from=2023-12-01&to=2023-12-31" target="_blank">Enrera, Neil Andreis</a></p>
+    <p><strong>Email:</strong> enreranm@students.nu-fairview.edu.ph</p>
+    <p><strong>Phone Number:</strong> 0915-974-****</p>
+  </section>
+</div>
+  </section>
+</body>
+</html>
+
